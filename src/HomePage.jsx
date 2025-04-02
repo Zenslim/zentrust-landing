@@ -7,7 +7,11 @@ export default function HomePage() {
     <main className="min-h-screen bg-white text-gray-900 font-sans">
       {/* Navigation */}
       <nav className="w-full px-6 py-4 bg-green-700 text-white shadow-md flex justify-between items-center">
-        <div className="text-xl font-bold">ZenTrust</div>
+      <div className="flex items-center space-x-2">
+  <img src="/logo.png" alt="ZenTrust Logo" className="h-8 w-8 object-contain" />
+  <span className="text-xl font-bold">ZenTrust</span>
+</div>
+
         <div className="space-x-4">
           <a href="#home" className="hover:underline">Home</a>
           <a href="#mission" className="hover:underline">Mission</a>
