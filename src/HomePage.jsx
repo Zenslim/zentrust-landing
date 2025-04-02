@@ -8,7 +8,7 @@ export default function HomePage() {
       {/* Navigation */}
       <nav className="w-full px-6 py-4 bg-green-700 text-white shadow-md flex justify-between items-center">
       <div className="flex items-center space-x-2">
-  <img src="/logo.png" alt="ZenTrust Logo" className="h-8 w-8 object-contain" />
+  <img src="/logo.svg" alt="ZenTrust Logo" className="h-8 w-8 object-contain" />
   <span className="text-xl font-bold">ZenTrust</span>
 </div>
 
