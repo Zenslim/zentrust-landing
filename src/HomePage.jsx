@@ -81,6 +81,34 @@ export default function HomePage() {
           Articles and updates on regenerative land use, syntropic design, and community healing.
         </p>
       </section>
+<section id="contact" className="max-w-xl mx-auto p-6 mt-16 bg-gray-100 rounded shadow">
+  <h2 className="text-2xl font-bold mb-4 text-center">Contact ZenTrust</h2>
+  <form action="https://formspree.io/f/mwplropq" method="POST" className="space-y-4">
+    <label className="block">
+      <span className="text-gray-700">Your email</span>
+      <input
+        type="email"
+        name="email"
+        required
+        className="mt-1 block w-full border border-gray-300 rounded p-2"
+      />
+    </label>
+    <label className="block">
+      <span className="text-gray-700">Your message</span>
+      <textarea
+        name="message"
+        required
+        className="mt-1 block w-full border border-gray-300 rounded p-2"
+      ></textarea>
+    </label>
+    <button
+      type="submit"
+      className="w-full bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800 transition"
+    >
+      Send Message
+    </button>
+  </form>
+</section>
 
 <SupportSection />
 
