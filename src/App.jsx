@@ -1,23 +1,28 @@
 import React from "react";
-import About from "./components/About";
-import Vision from "./components/Vision";
-import BlogTeaser from "./components/BlogTeaser";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Navbar from "../components/Navbar";
+import About from "../components/About";
+import Vision from "../components/Vision";
+import BlogTeaser from "../components/BlogTeaser";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function App() {
   return (
-    <main className="bg-gradient-to-b from-green-50 via-white to-green-100 text-gray-800">
+    <main className="text-gray-800 bg-white scroll-smooth">
+      <Navbar />
+
       {/* Hero Section */}
-      <section className="min-h-screen py-20 flex flex-col justify-center items-center text-center bg-green-100">
-        <h1 className="text-5xl font-extrabold text-green-800 drop-shadow-sm">ZenTrust: Harmony in Action</h1>
-        <p className="text-lg text-green-700 tracking-wide mt-4 max-w-2xl">
+      <section className="bg-gradient-to-b from-green-50 via-white to-green-100 text-center py-20">
+        <h1 className="text-5xl font-extrabold text-green-800 drop-shadow-sm">
+          ZenTrust: Harmony in Action
+        </h1>
+        <p className="text-lg text-green-700 mt-6 tracking-wide max-w-2xl mx-auto">
           A sanctuary for healing, community resilience, and regenerative living — rooted in tradition, scaled by technology.
         </p>
-        <div className="mt-6 flex gap-4">
+        <div className="mt-8 flex justify-center gap-4">
           <a
             href="#about"
-            className="bg-green-700 text-white px-6 py-3 rounded-xl font-medium shadow-lg hover:bg-green-800 transition"
+            className="bg-green-700 text-white px-6 py-3 rounded-xl text-lg font-medium shadow-lg hover:bg-green-800 transition"
           >
             Join the Movement
           </a>
@@ -30,7 +35,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* Ninja-style Flow Sections */}
+      {/* Flow Sections */}
       <About />
       <Vision />
       <BlogTeaser />
