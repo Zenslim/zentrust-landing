@@ -1,16 +1,13 @@
-import React from "react";
-
 export default function About() {
   return (
-    <section className="py-20 bg-white text-gray-800" id="about">
-      <div className="max-w-5xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-4">What is ZenTrust?</h2>
-        <p className="text-lg leading-relaxed">
-          ZenTrust is a regenerative movement for rural harmony, integrating ancestral knowledge,
-          future-proof systems, and sacred design. It's not just a nonprofit—it's a ninja dojo for social innovation.
+    <section id="about" className="py-20 bg-white text-center">
+      <div className="max-w-3xl mx-auto px-4">
+        <h2 className="text-3xl font-bold mb-4 text-green-800">About ZenTrust</h2>
+        <p className="text-gray-700">
+          ZenTrust is a sanctuary for holistic living, where ancestral wisdom meets regenerative tech. Based in the Himalayas,
+          we unite land, people, and purpose.
         </p>
       </div>
     </section>
   );
 }
-
