@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function BlogTeaser() {
   return (
     <section className="py-20 bg-green-100 text-green-900" id="blog">
