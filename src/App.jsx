@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import About from "../components/About";
-import Vision from "../components/Vision";
-import BlogTeaser from "../components/BlogTeaser";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Vision from "./components/Vision";
+import BlogTeaser from "./components/BlogTeaser";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
