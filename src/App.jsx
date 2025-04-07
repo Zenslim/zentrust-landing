@@ -17,9 +17,9 @@ export default function App() {
           ZenTrust: Harmony in Action
         </h1>
         <p className="text-lg text-green-700 mt-6 tracking-wide max-w-2xl mx-auto">
-          A sanctuary for healing, community resilience, and regenerative living — rooted in tradition, scaled by technology.
+          A sanctuary for healing, community resilience, and regenerative living – rooted in tradition, scaled by technology.
         </p>
-        <div className="mt-8 flex justify-center gap-4">
+        <div className="mt-6 flex justify-center gap-4">
           <a
             href="#about"
             className="bg-green-700 text-white px-6 py-3 rounded-xl text-lg font-medium shadow-lg hover:bg-green-800 transition"
@@ -35,7 +35,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* Flow Sections */}
       <About />
       <Vision />
       <BlogTeaser />
