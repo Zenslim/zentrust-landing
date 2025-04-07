@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Vision() {
   return (
     <section className="py-20 bg-green-50 text-green-900" id="vision">
