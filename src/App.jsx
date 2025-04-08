@@ -1,11 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import About from "./components/About";
+import { Duxbury } from './components/Duxbury';
+import { Hero } from './components/Hero';
+import { About } from './components/About';
+import { Programs } from './components/Programs';
+import { Duxbury } from './components/Duxbury';
+import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
 import Vision from "./components/Vision";
 import BlogTeaser from "./components/BlogTeaser";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-
 export default function App() {
   return (
     <main className="text-gray-800 bg-white scroll-smooth">
