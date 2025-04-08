@@ -11,6 +11,13 @@ export default function Navbar() {
           <li><a href="#vision" className="hover:text-green-900">Vision</a></li>
           <li><a href="#blog" className="hover:text-green-900">Blog</a></li>
           <li><a href="#contact" className="hover:text-green-900">Contact</a></li>
+<li>
+  <a href="https://duxbury.zentrust.world" target="_blank" rel="noopener noreferrer" className="hover:text-green-900">
+    Duxbury
+  </a>
+</li>
+
+
         </ul>
       </nav>
     </header>
