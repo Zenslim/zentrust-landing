@@ -1,2 +1,2 @@
 # zentrust-landing
-Professional landing page for ZenTrust initiative.
+Professional landing page for ZenTrust initiative. 
