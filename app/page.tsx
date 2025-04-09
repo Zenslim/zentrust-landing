@@ -1,7 +1,7 @@
-export default function Home() {
+export default function HomePage() {
   return (
-    <main>
-      <h1>ZenTrust: Healing Earth, Healing Ourselves</h1>
+    <main className="min-h-screen flex items-center justify-center">
+      <h1 className="text-4xl font-bold">ZenTrust is alive ✨</h1>
     </main>
   );
 }
